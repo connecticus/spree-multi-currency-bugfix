@@ -46,6 +46,8 @@ end
 gem 'spree', github: 'spree/spree', :tag => 'v2.1.5'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-1-stable'
 gem 'spree_i18n', github: 'spree/spree_i18n', :ref => "9d3c874621e77f27d4949c21bd610b2efc93fd99"
-gem "spree_multi_currency", :git => "git://github.com/pronix/spree-multi-currency.git"
+#gem "spree_multi_currency", :git => "git://github.com/pronix/spree-multi-currency.git"
+
+gem "spree_multi_currency", :path => 'vendor/extensions'
 
 gem 'money', :github => "radar/money", :branch => "issue-272"

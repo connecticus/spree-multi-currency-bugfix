@@ -1,14 +1,4 @@
 GIT
-  remote: git://github.com/pronix/spree-multi-currency.git
-  revision: b96d436c376a00f2d709e35a6e8759c5e6ba7599
-  specs:
-    spree_multi_currency (2.0.0)
-      json (>= 1.5.1)
-      money (>= 5.0.0)
-      nokogiri (>= 1.4.4)
-      spree_core (>= 2.0.3)
-
-GIT
   remote: git://github.com/radar/money.git
   revision: 4edd4dd43704a30aa6b68edd4efc9f51348ab3bc
   branch: issue-272
@@ -90,6 +80,15 @@ GIT
       globalize (~> 4.0.0)
       rails-i18n (~> 0.7.3)
       spree_core (~> 2.1.0)
+
+PATH
+  remote: vendor/extensions
+  specs:
+    spree_multi_currency (2.0.0)
+      json (>= 1.5.1)
+      money (>= 5.0.0)
+      nokogiri (>= 1.4.4)
+      spree_core (>= 2.0.3)
 
 GEM
   remote: https://rubygems.org/
